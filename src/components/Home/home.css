@@ -1,0 +1,33 @@
+main {
+  color: #fffffa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-inline: 125px;
+
+  .text {
+    h2 {
+      font-size: 40px;
+    }
+  }
+
+  .image {
+    img {
+      height: 100%;
+      width: 98%;
+    }
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding-inline: 25px;
+    .image {
+      width: 350px;
+      height: 400px;
+    }
+    .text {
+      margin: 50px 20px 50px 0;
+    }
+  }
+}
