@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg1"
-   width="103.77051"
+   width="106.9801"
    height="103.8416"
-   viewBox="0 0 103.77051 103.8416"
+   viewBox="0 0 106.9801 103.8416"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
@@ -99,10 +99,32 @@
          transform="translate(-928.73612,-808.07352)"
          id="path31" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath57">
+      <path
+         d="M 0,915 H 1920 V 0 H 0 Z"
+         transform="translate(-1920,-832.70712)"
+         id="path57" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath57-7">
+      <path
+         d="M 0,915 H 1920 V 0 H 0 Z"
+         transform="translate(-1920,-832.70712)"
+         id="path57-5" />
+    </clipPath>
   </defs>
   <g
      id="layer-MC0"
-     transform="translate(-1228.1152,-57.803066)">
+     transform="translate(-1226.5527,-57.803066)">
+    <path
+       id="path56-5"
+       d="M 0,0 H -938.58"
+       style="fill:none;stroke:#fffffa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.02660746,0,0,-1.3333333,1251.5265,109.99779)"
+       clip-path="url(#clipPath57-7)" />
     <g
        id="g3025"
        style="display:inline">
@@ -173,5 +195,11 @@
          transform="matrix(1.3333333,0,0,-1.3333333,1238.3148,142.56867)"
          clip-path="url(#clipPath31)" />
     </g>
+    <path
+       id="path56"
+       d="M 0,0 H -938.58"
+       style="fill:none;stroke:#fffffa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.02660746,0,0,-1.3333333,1333.5333,109.72387)"
+       clip-path="url(#clipPath57)" />
   </g>
 </svg>

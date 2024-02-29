@@ -54,7 +54,7 @@ function NavBar() {
         </li>
       </ul>
       <div className="logo">
-        <img src="/assets/test2.svg" alt="logo" />
+        <img src="/assets/logo.svg" alt="logo" />
       </div>
 
       <ul className="right">
