@@ -54,7 +54,7 @@ function NavBar() {
         </li>
       </ul>
       <div className="logo">
-        <img src="/assets/logo.svg" alt="logo" />
+        <img src="/assets/logo2.svg" alt="logo" />
       </div>
 
       <ul className="right">
@@ -74,7 +74,7 @@ function NavBar() {
       <div className="burger-icon" onClick={toggleNavbar}>
         <img src="/assets/icons/bar.png" alt="Menu" />
       </div>
-      <ul className={`phoneNav ${isNavbarOpen ? "opened" : "closed"}`}>
+      <ul className={`${isNavbarOpen ? "opened" : "closed"}`}>
         <li
           className={activeItem === null ? "active" : ""}
           onClick={handleClick}
